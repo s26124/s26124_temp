@@ -1,0 +1,80 @@
+ZADANIE 1:
+
+Student{
+
+  main(
+  
+  // metoda lepiej jesli sluzy do jednej rzeczy
+  // metody dobrze nazywac czynnoscia, np. wypisz
+  
+  println.out.
+  string imie, nazwsiko, plec; 
+  Scanner 
+  wypisz(imie, nazwisko, plec);
+}
+
+  public static void wypisz(String imie, String nazwisko, String plec)
+    {
+    String napis=""
+    if (plec.equal("mezczyzna")
+      napis += "Student: "
+        else if plec.equal("kobieta")
+          napis += "Studentka: "
+     napis=napis+imie+" "+ nazwisko
+        
+    }
+    
+  // STATIC:
+  // w odniesieniu do funkcji mozemy wywolac ...
+  // w odniesieniu do zmiennej
+  // VOID - metoda ktora nic nie zwraca
+  // dla typow zlozonych unikac porownan s1==s2
+  
+  
+  ZADANIE 2:
+  
+  Student{
+
+  main(
+  
+  println.out.
+  String rok, miesiac // potrzebne parsowanie na liczby
+  Scanner 
+  wypisz(rok, miesiac
+  }
+
+  public static void wypisz(String rok, String miesiac)
+    {
+      String napis=miesiac+"."+rok+" " to " " ";
+      int mies = Integer.parseInt(miesiac);
+      mies/=4;
+      if (mies ==0)
+        napis += "I";
+        else if (mies == 1)
+          napis += "II"
+         else if ...
+      
+    }
+    
+    
+  ZADANIE 3:
+  
+  // wyrzucic void
+  
+  Student{
+    main{
+      int rok;
+      if (czyPrzestepny(rok))
+      wypisz jest przestepny
+          else nie jest przestepny
+  }
+  
+  
+  public static bolean czyPrzestepny(int rok){
+    bolean przestepnosc=false;
+    if((rok%4==0 && rok/100!=0) || rok%400=0)
+      przestepnosc=true;
+    return przestepnosc;
+  
+  }
+  }
